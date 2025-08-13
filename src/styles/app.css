@@ -1,0 +1,41 @@
+.app-button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.app-button:hover {
+  background-color: #45a049; 
+}
+.app-nav{
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    background-color: #ada1a1;
+    border-bottom: 2px solid #ccc;
+}
+.h1{
+    font-family: Georgia, serif;
+font-size: 16px;
+letter-spacing: 1.4px;
+word-spacing: 2px;
+color: #000000;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-size: 14px;
+}
