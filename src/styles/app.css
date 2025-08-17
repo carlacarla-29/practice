@@ -1,7 +1,7 @@
 /* Main container styles */
 .rapada-test {
   padding: 20px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+
   min-height: 100vh;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -10,7 +10,17 @@
 .app-header {
   text-align: center;
   margin-bottom: 40px;
-  color: white;
+  color: rgb(132, 56, 56);
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeInDown 1s ease forwards
+
+}
+@keyframes fadeInDown {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .app-header h1 {
@@ -24,7 +34,7 @@
   opacity: 0.9;
 }
 
-/* Products grid layout */
+
 .products-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -33,7 +43,7 @@
   margin: 0 auto;
 }
 
-/* Product card styles - E-commerce vibe */
+
 .product-card {
   background: white;
   border-radius: 16px;
@@ -113,7 +123,7 @@
 .buy-now-btn {
   width: 100%;
   padding: 12px 0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #433b45 0%, #474246 100%);
   color: white;
   border: none;
   border-radius: 8px;
